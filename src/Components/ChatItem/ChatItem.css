@@ -1,0 +1,50 @@
+.Chat-Item {
+  border-bottom: 1px solid grey;
+  height: 70px;
+  overflow: hidden;
+  line-height: 1.6;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  width: 100%;
+}
+
+.Chat-Item:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.Chat-Item h3 {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.Chat-Item p {
+  font-size: 0.8em;
+  height: 1.8em;
+  font-weight: 300;
+  width: 95%;
+  overflow: hidden;
+}
+
+.Info {
+  display: inline-block;
+  vertical-align: top;
+  width: 87%;
+  padding: 2% 5px;
+}
+
+.Profile-Pic {
+  width: 55px;
+  height: 55px;
+  display: inline-block;
+  background-color: grey;
+  border-radius: 50%;
+  margin: 8px 3.5px;
+  text-align: center;
+}
+
+.Profile-Pic span {
+  display: block;
+  padding: 25% 25%;
+  font-weight: 500;
+  color: white;
+}

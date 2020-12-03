@@ -1,0 +1,12 @@
+.Chat-list {
+  min-height: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  padding-top: 50px;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+.chat-list:hover {
+  cursor: pointer;
+}

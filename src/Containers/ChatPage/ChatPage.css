@@ -1,0 +1,39 @@
+.Chat-Page {
+  padding-top: 50px;
+  min-height: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  background-color: rgb(173, 173, 236);
+}
+
+.Messages-Page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 30px 0px;
+}
+
+.Messages-Page div {
+  overflow-wrap: break-word;
+  max-width: 85%;
+  padding: 5px;
+}
+
+.Messages-Page p {
+  overflow-wrap: break-word;
+  padding: 5px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+div.Received {
+  align-self: flex-start;
+}
+
+p.Received {
+  color: white;
+  background-color: rgb(12, 33, 61);
+}

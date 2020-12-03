@@ -1,0 +1,33 @@
+.Header {
+  position: fixed;
+  top: 0;
+  width: 479px;
+  background-color: #4995be;
+  color: white;
+  padding: 15px 20px;
+  height: 50px;
+  box-shadow: 0px 1px 2px grey;
+  display: flex;
+  align-items: center;
+}
+
+.Header h1 {
+  margin-left: 30px;
+  font-size: 1.4em;
+  letter-spacing: 0.5px;
+}
+
+.burger {
+  width: 15px;
+  height: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.burger-line {
+  background-color: white;
+  height: 2.5px;
+  width: 15px;
+  border-radius: 5px;
+}

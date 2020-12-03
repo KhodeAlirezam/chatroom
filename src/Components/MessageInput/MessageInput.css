@@ -1,0 +1,27 @@
+.Input {
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  width: 480px;
+}
+
+.Input input {
+  font-size: 1em;
+  padding: 10px;
+  width: 89.7951%;
+  border: none;
+}
+
+.send {
+  display: inline-block;
+  color: rgb(70, 70, 70);
+  transition-property: color;
+  transition-duration: 0.5s;
+  cursor: default;
+}
+
+.active {
+  color: #4995be;
+  cursor: move;
+  cursor: pointer;
+}
